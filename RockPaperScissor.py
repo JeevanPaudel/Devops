@@ -1,8 +1,8 @@
-import random
+mport random
 
 def game():
     user = input("Choose 's' for SCISSOR, 'p' for PAPER,'r' for ROCK :")
-    print("Welcome to the game (Version: y)")
+    print("Welcome to the game (Version: z)")
     comp = random.choice(('s', 'p', 'r'))
 
     if user == comp:
@@ -20,3 +20,4 @@ def win(user, comp):
         return True                      #True is returned if player wins
 
 game()
+
