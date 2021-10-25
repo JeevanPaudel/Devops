@@ -2,6 +2,7 @@ import random
 
 def game():
     user = input("Choose 's' for SCISSOR, 'p' for PAPER,'r' for ROCK :")
+    print("Welcome to the game (Version: latest)")
     comp = random.choice(('s', 'p', 'r'))
 
     if user == comp:
